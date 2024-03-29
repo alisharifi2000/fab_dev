@@ -27,7 +27,9 @@ APP_ICON = "/static/img/demo-logo1_850x467.png"
 # ----------------------------------------------------
 # The authentication type
 AUTH_TYPE = AUTH_DB
-
+AUTH_USER_REGISTRATION = True
+RECAPTCHA_PRIVATE_KEY = ""
+RECAPTCHA_PUBLIC_KEY  = ""
 # ---------------------------------------------------
 # Babel config for translations
 # ---------------------------------------------------
